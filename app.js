@@ -115,11 +115,11 @@ function highScore(score) {
 
 // These are the questions
 var questions = [
-    new Question("Speedometer is an example of ______ computers.", ["Hybrid", "Digital", "Analog", "None of the Above"], "Analog"),
-    new Question("______ is the process in which a user sends computer information from his computer to another computer through modem.", ["Downloading", "Uploading", "All of the above", "None of the above"], "Uploading"),
-    new Question("A______ is a group of independent computers attached to one another through communication media.", ["Internet", "Email", "Network", "All of the above"], "Network"),
-    new Question("Which of the following software is used to view web pages?", ["Web browser", "Internet browser", "Page browser", "All of the above"], "Web browser"),
-    new Question("Every number system has a base, which is called ______.", ["Index", "Subscript", "Radix", "None of the above"], "Radix")
+    new Question("Which of the following is a server-side Java Script object?", ["Function", "File", "FileUpload", "Date"], "File"),
+    new Question("Which of the following is the tainted property of a window object in Java Script?", ["Pathname", "Defaultstatus", "Protocol", "Host"], "Defaultstatus"),
+    new Question("Which of the below is used in Java script to insert special characters?", ["&", "-", "%", "None of the above"], "None of the above"),
+    new Question("Which of the following is correct to write “Hello World” on the web page?", ["System.out.println(“Hello World”)", "document.write(“Hello World”)", "print(“Hello World”)", "response.write(“Hello World”)"], "document.write(“Hello World”)"),
+    new Question("Which attribute needs to be changed to make elements invisible?", ["visibilty", "invisible", "visible", "invisibility"], "visibilty")
 ];
 
 // This creates the quiz.
